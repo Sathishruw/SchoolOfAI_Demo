@@ -26,7 +26,6 @@ Then navigate in a browser to and load the flow notebook by clicking on Flow > O
 Data
 The primary data used is a airlines flight data with all flights from 1987 to 2013 heading to Chicago O'Hare airport. For flow this dataset has been subsetted to only flights delayed by weather and post 2003. Subsequently there's a dataset that merged the first flights dataset with weather data. This was done beforehand because the user will not be able to conduct the joins and merges from Flow.
 
-forFlow_flights.csv
-forFlow_merged_data.csv
-# School_of_AI_Demos
+forFlow_flights.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/forFlow_flights.csv
+forFlow_merged_data.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/weather.csv
 # SchoolOfAI_Demo
