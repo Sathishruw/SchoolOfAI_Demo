@@ -7,6 +7,7 @@ The primary data used is a airlines flight data with all flights from 1987 to 20
 
 flights.csv
 weather.csv
+
 Python Users
 Python users can use a Jupyter/IPython notebook to launch the python notebook. Otherwise you can also run from a generic python console the python script.
 
@@ -15,6 +16,7 @@ The primary data used is a airlines flight data with all flights from 1987 to 20
 
 flights.csv
 weather.csv
+
 Flow Users
 Flow users can launch the flow notebook in Flow. Keep in mind you will need to start h2o first.
 
