@@ -5,8 +5,6 @@ R users can use RStudio or the R console to execute the R script.
 Data
 The primary data used is a airlines flight data with all flights from 1987 to 2013 heading to Chicago O'Hare airport. There is also a weather dataset we use to try to generate more features to improve our predictions on weather based delays.
 
-flights.csv
-weather.csv
 
 Python Users
 Python users can use a Jupyter/IPython notebook to launch the python notebook. Otherwise you can also run from a generic python console the python script.
@@ -14,8 +12,8 @@ Python users can use a Jupyter/IPython notebook to launch the python notebook. O
 Data
 The primary data used is a airlines flight data with all flights from 1987 to 2013 heading to Chicago O'Hare airport. There is also a weather dataset we use to try to generate more features to improve our predictions on weather based delays.
 
-flights.csv
-weather.csv
+flights.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/flights.csv
+weather.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/weather.csv
 
 Flow Users
 Flow users can launch the flow notebook in Flow. Keep in mind you will need to start h2o first.
@@ -29,5 +27,5 @@ Data
 The primary data used is a airlines flight data with all flights from 1987 to 2013 heading to Chicago O'Hare airport. For flow this dataset has been subsetted to only flights delayed by weather and post 2003. Subsequently there's a dataset that merged the first flights dataset with weather data. This was done beforehand because the user will not be able to conduct the joins and merges from Flow.
 
 forFlow_flights.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/forFlow_flights.csv
-forFlow_merged_data.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/weather.csv
+forFlow_merged_data.csv https://s3.amazonaws.com/data.h2o.ai/h2o-open-tour/2016-nyc/forFlow_merged_data.csv
 # SchoolOfAI_Demo
